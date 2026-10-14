@@ -1,251 +1,209 @@
-# Awesome-Enterprise-Search-Internal-Memory-Layers
+<div align="center">
 
-## Top Enterprise Search & Internal Memory Layers Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Enterprise Search &amp; Internal Memory Layers Banner" width="100%" />
 
+# ⚡ Awesome Enterprise Search &amp; Internal Memory Layers 🧠
 
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Enterprise-Search-Internal-Memory-Layers/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Enterprise-Search-Internal-Memory-Layers/graphs/commit-activity)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Search-Internal-Memory-Layers?style=social)](https://github.com/ishandutta2007/Awesome-Enterprise-Search-Internal-Memory-Layers/stargazers)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <strong>Curated Directory of Enterprise Search Engines, Workplace Knowledge Assistants, Retrieval-Augmented Generation (RAG) Infrastructure &amp; Internal Memory Layers.</strong>
+</p>
 
-*Focused on Unified Corporate Knowledge, Permission-Aware Retrieval & Internal Memory*  
+<p align="center">
+  <em>Unified Corporate Knowledge • Source-Level Access Control (ACL) Mirroring • Semantic &amp; Hybrid Vector Search • AI Agent Context Management</em>
+</p>
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Search & Internal Memory Layers**. These tools map unstructured team documentation—wikis, chat, tickets, code, drives—into a unified, permission-aware corporate knowledge layer that both humans and AI agents can query.
-
-
-
-**Examples** include Glean, Hebbia, Guru, Coveo, Perplexity Enterprise, Dashworks, Qatalog, GoSearch, Slite, and Amazon Kendra (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, permission-mirroring connectors, and open retrieval infrastructure—ideal for platform engineers, knowledge managers, and developers seeking transparent, vendor-independent enterprise search.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Glean](https://www.glean.com/)**  
-
-  The category-defining enterprise search and AI platform. **100+ connectors**, permissions-aware retrieval that inherits source-system ACLs, and Glean Assistant for natural-language Q&A grounded in corporate knowledge. **No public pricing**—quoted annually, typically six figures for mid-market and above. Unusually horizontal—works for engineering, sales, support, and HR without vertical-specific configuration. **The benchmark most open-source alternatives are measured against.**
-
-
-
-- **[Coveo](https://www.coveo.com/)**  
-
-  Enterprise AI search platform with a strong **relevance engine** and mature connector library. Features Coveo Relevance Generative Answering (RGA) for RAG over indexed content. **Credit-based pricing** tied to search and query volumes. Strongest for **customer-facing support search** and product catalog search alongside internal knowledge. **The most mature relevance tuning** in the category.
-
-
-
-- **[Guru](https://www.getguru.com/)**  
-
-  Knowledge management platform with **verified cards**—content is captured, verified by subject-matter experts, and surfaced in the flow of work (Slack, Teams, browser). Features Guru's AI Assistant grounded in verified knowledge. **$15/user/month** for the Knowledge plan (annual) as of 2026 . Best for **support and customer-facing teams** where answer accuracy matters more than comprehensive coverage.
-
-
-
-- **[Hebbia](https://www.hebbia.com/)**  
-
-  AI research and document analysis platform. **Matrix** interface enables structured analysis across thousands of documents simultaneously—extract, compare, and synthesize without reading each one. **No public pricing**; enterprise contracts. Best for **financial services, legal, and consulting** where document-heavy diligence is the core workflow.
-
-
-
-- **[Perplexity Enterprise](https://www.perplexity.ai/enterprise)**  
-
-  Enterprise version of Perplexity's answer engine. Features **internal knowledge search combined with web search**, user management, and data retention controls. **$40/user/month** (annual) as of 2026 . Best for teams already using Perplexity who want internal connectors added.
-
-
-
-- **[Dashworks](https://www.dashworks.ai/)**  
-
-  AI-powered enterprise search and assistant. Features **100+ integrations**, permissions-aware retrieval, and Dashworks Answers. **$19/user/month** (annual) for the Team plan . Positioned as **lower-cost Glean alternative** for startups and mid-market.
-
-
-
-- **[Qatalog](https://qatalog.com/)**  
-
-  Work intelligence platform unifying search, people, and projects. Acquired by **ZoomInfo (2026)**—roadmap under new ownership is still settling . Strong at **people and project discovery** alongside document search.
-
-
-
-- **[GoSearch](https://www.gosearch.ai/)**  
-
-  AI-powered enterprise search with **100+ connectors** and customizable AI answers. **$15/user/month** (annual) for the Starter plan . Positioned as **affordable Glean alternative** for smaller organizations.
-
-
-
-- **[Slite](https://slite.com/)**  
-
-  AI-powered knowledge base with "Ask" search over internal documentation. Features verification workflows and templates. **$8/user/month** (annual) for the Standard plan . Best for teams using Slite as their primary documentation platform.
-
-
-
-- **[Amazon Kendra](https://aws.amazon.com/kendra/)**  
-
-  Fully managed AWS enterprise search service. Features **native ML-based relevance ranking** and connectors for S3, SharePoint, Salesforce, and 40+ sources. **$810/month for Enterprise Edition** (up to 2,000 documents). **Note**: AWS announced Kendra's end-of-support for **December 31, 2026**—evaluate alternatives before committing . Best for AWS-committed organizations requiring managed search infrastructure.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)**  
-
-  **The leading open-source enterprise search and AI assistant platform** (MIT for core). **The most mature open-source Glean alternative available.** Features **40+ connectors** (Slack, Google Drive, Confluence, Jira, Notion, GitHub, SharePoint, Teams, and more), **permission-aware retrieval** that mirrors source-system ACLs, **Onyx Assistant** for natural-language Q&A with citations, **custom assistants** with scoped knowledge and personas, and **multi-LLM support** (OpenAI, Anthropic, local models via Ollama). Self-hosted via Docker Compose or Kubernetes. **Used by Netflix, Ramp, and other enterprises.** The core is open source; Enterprise edition adds SSO, RBAC, and advanced analytics .
-
-
-
-- **[Quivr](https://github.com/QuivrHQ/quivr)**  
-
-  Open-source **second brain** and RAG framework (Apache 2.0). **35,000+ GitHub stars**. Ingests documents, text, and media into a personal or team knowledge base. Features multiple LLM backends, vector store options, and API access. **The most popular open-source personal/team knowledge assistant.** Less enterprise-focused than Onyx—no permission mirroring to source systems.
-
-
-
-- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)**  
-
-  Open-source all-in-one AI application for document chat and RAG (MIT). **35,000+ GitHub stars**. Features **multi-user support with permissions**, document ingestion from local files and URLs, multiple vector databases, and **desktop app + Docker deployment**. **The most accessible open-source RAG application** for teams wanting a Glean-like experience without enterprise complexity.
-
-
-
-- **[Khoj](https://github.com/khoj-ai/khoj)**  
-
-  Open-source AI personal assistant that searches the web and your documents (AGPL-3.0). **25,000+ GitHub stars**. Features **semantic search across PDFs, Markdown, Org-mode, Notion, Word docs**, chat with local or cloud LLMs, and integrations with Emacs, Obsidian, and browser. **The most flexible open-source personal knowledge search**—strong for individuals, weaker for team permissions.
-
-
-
-- **[RAGFlow](https://github.com/infiniflow/ragflow)**  
-
-  Open-source RAG engine based on deep document understanding (Apache 2.0). **40,000+ GitHub stars**. Features **DeepDoc engine** with OCR, table structure recognition (TSR), and layout analysis to accurately extract merged cells and formulas from complex documents. Multi-path retrieval combining Elasticsearch keyword search and Infinity vector search with fusion reranking. **The strongest open-source document parsing** for enterprise search—critical when your knowledge is trapped in PDFs and scanned docs.
-
-
-
-- **[Danswer (legacy)](https://github.com/danswer-ai/danswer)**  
-
-  The original name of Onyx—same project, rebranded. Historical references may point here.
-
-
-
-- **[SearchX (Alibaba)](https://github.com/alibaba/SearchX)**  
-
-  Open-source enterprise-level search platform (Apache 2.0). Built by Alibaba for **large-scale distributed search**. Features plugin-based architecture, real-time indexing, and ML ranking. **The most enterprise-scaled open-source search platform**—but documentation is primarily Chinese.
-
-
-
-- **[Apache Solr](https://github.com/apache/solr)**  
-
-  Open-source enterprise search platform built on Apache Lucene (Apache 2.0). **The most mature open-source search engine**—20+ years of production use. Features faceted search, highlighting, spell-check, and rich document parsing. **Not permission-aware out of the box**—requires custom ACL integration.
-
-
-
-- **[Elasticsearch](https://github.com/elastic/elasticsearch)**  
-
-  Distributed search and analytics engine (Elastic License 2.0 / SSPL / AGPL tri-license). **The most widely deployed open-source search engine.** Features vector search, hybrid retrieval, and machine learning. **License restrictions apply for managed service providers.**
-
-
-
-- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**  
-
-  Apache 2.0-licensed fork of Elasticsearch 7.10.1 led by AWS. **The most permissively licensed enterprise search engine.** Features vector search, security plugin with document-level ACL, and OpenSearch Dashboards. **Best for teams wanting Elasticsearch capabilities without license concerns.**
-
-
-
-- **[Meilisearch](https://github.com/meilisearch/MeiliSearch)**  
-
-  Lightning-fast open-source search engine (MIT). **40,000+ GitHub stars**. Features typo tolerance, faceted search, and **extremely simple setup**. **The best open-source search for smaller datasets**—e-commerce, documentation, applications. Less suited for enterprise ACL mirroring.
-
-
-
-- **[Typesense](https://github.com/typesense/typesense)**  
-
-  Open-source typo-tolerant search engine (GPL-3.0). **20,000+ GitHub stars**. Features instant search, faceted navigation, and vector search. **The most modern open-source search engine** for application search.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Permit.io](https://github.com/permitio/permit)** — Open-source authorization layer that can bridge source-system ACLs to search indexes—critical for permission-aware retrieval in custom builds.
-
-- **[SpiceDB (Authzed)](https://github.com/authzed/spicedb)** — Open-source permissions database (Apache 2.0) designed for consistent authorization across systems. Google Zanzibar-inspired—the gold standard for ACL mirroring.
-
-- **[OpenFGA](https://github.com/openfga/openfga)** — Open-source fine-grained authorization (Apache 2.0) from CNCF. Zanzibar-inspired permission modeling.
-
-- **[LangChain](https://github.com/langchain-ai/langchain)** / **[LlamaIndex](https://github.com/run-llama/llama_index)** — RAG frameworks for building custom search and Q&A over indexed content.
-
-- **[Unstructured](https://github.com/Unstructured-IO/unstructured)** — Open-source document parsing library (Apache 2.0) for ingesting PDFs, HTML, Office docs into search-ready text.
-
-- **[Haystack](https://github.com/deepset-ai/haystack)** — Open-source NLP framework (Apache 2.0) for building search and RAG pipelines.
-
-- Community **n8n** workflows for connector orchestration and index refresh automation.
-
-
-
-**Frameworks for building custom systems**: Combine **Onyx** for permission-aware enterprise search with **RAGFlow** for deep document parsing, **OpenSearch** for permissive search infrastructure, **SpiceDB** or **OpenFGA** for ACL mirroring, and **PostgreSQL** for persistence—creating a fully self-hosted, enterprise-grade internal memory layer.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Enterprise search systems indexing corporate knowledge must **mirror source-system permissions**—returning documents a user cannot access is a security incident. Compliance with data protection regulations (GDPR, CCPA, etc.) is mandatory.
-
-- **Permission mirroring is the hardest open-source problem.** Onyx is the only mature open-source platform that inherits source-system ACLs across 40+ connectors . Solr, Elasticsearch, and Meilisearch provide search infrastructure but **no permission awareness**—you must build ACL integration using SpiceDB, OpenFGA, or custom logic. **A search engine that returns unauthorized results is worse than no search.**
-
-- **Amazon Kendra is sunsetting.** AWS announced end-of-support for **December 31, 2026** . Do not start new deployments on Kendra; migrate to OpenSearch or a commercial alternative.
-
-- **Document parsing quality determines answer quality.** RAGFlow's DeepDoc engine handles complex tables, formulas, and scanned documents that simpler parsers fail on . If your knowledge lives in PDFs and legacy documents, parsing is the bottleneck.
-
-- **Zanzibar-inspired permissions are the gold standard.** SpiceDB and OpenFGA model authorization as a graph—supporting hierarchical, relationship-based, and nested permissions that flat ACLs cannot express . Critical for enterprise search that must respect sharing boundaries across Drive folders, Confluence spaces, and Slack channels.
-
-- Self-hosted open-source solutions require proper security hardening, connector credential management, and ongoing maintenance. Indexing is expensive—plan for embedding compute and storage costs.
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
+- [📌 Sector Overview &amp; Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS &amp; Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Open-Source Ranking by Stars](#-ranked-by-github-stars)
+  - [🏗️ Architectural Frameworks &amp; Building Blocks](#️-architectural-frameworks--building-blocks)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⚠️ Enterprise Security &amp; Disclaimer](#️-enterprise-security--disclaimer)
 
+---
 
-**Made for platform engineers, knowledge managers, and developers building transparent enterprise memory solutions.**  
+## 📌 Sector Overview &amp; Market Dynamics
 
-Let's make Enterprise Search & Internal Memory Layers more open, data-driven, and permission-aware.
+The global enterprise search and knowledge retrieval market is valued at approximately **$6.7 Billion in 2026** (projected to exceed $11B+ by the early 2030s at an ~8–11% CAGR). The sector is **structurally fragmented at the connector and infrastructure layer** due to heterogeneous data silos, sovereign data policies, and complex legacy permissions, but is actively **consolidating toward a winner-take-most dynamic at the software layer** driven by capital-intensive LLM inference, Google/Microsoft productivity suite bundling, and category-defining AI platforms.
+
+---
+
+## 🏢 SaaS &amp; Hosted Platforms
+
+The table below catalogs leading commercial Enterprise Search and Workplace Memory solutions, sorted descending by company scale (enterprise market capitalization or private valuation):
+
+| Platform | Valuation / Revenue Scale | Starting Pricing | Free Tier / Trial Limits | Core Focus &amp; Differentiator |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Kendra](https://aws.amazon.com/kendra/)** | **~$2.0 Trillion** (Amazon AWS parent market cap) | **$810.00 / month** (Enterprise Edition base) | **30-day free trial** (up to 750 hours on Developer/GenAI Enterprise edition; connectors excluded; sunsetting Dec 31, 2026) | Fully managed AWS enterprise search service with 40+ native connectors. |
+| **[Perplexity Enterprise](https://www.perplexity.ai/enterprise)** | **~$23.0 Billion** valuation ($750M+ ARR) | **$40.00 / seat / month** ($34/mo billed annually) | **Permanent free tier** (standard web search with real-time citations, limited daily queries; no free enterprise trial) | Blends live web knowledge with internal team workspace search and SOC 2 data governance. |
+| **[Glean](https://www.glean.com/)** | **~$7.2 Billion** valuation ($300M+ ARR) | **~$45.00–$65.00 / seat / month** (typically $50K–$60K annual contract minimum) | **No free tier or public trial** (only paid structured Proof-of-Concept / enterprise pilot engagements) | Industry benchmark enterprise search; 100+ connectors with strict source-system ACL inheritance. |
+| **[Hebbia](https://www.hebbia.com/)** | **~$700.0 Million** valuation ($30M–$48M ARR) | **~$3,000.00 / seat / year** (~$250/seat/month on Lite tier) | **No self-serve free tier or public trial** (scoped enterprise pilot programs for qualified institutions only) | AI research Matrix interface for deep simultaneous multi-document analysis in finance and legal. |
+| **[Guru](https://www.getguru.com/)** | **~$320.0 Million** ARR estimate ($68M funded) | **$15.00 / user / month** (annual billing) | **30-day free trial** (full access to AI search and verified card workflows; no permanent free tier) | Verified knowledge cards embedded directly into Slack, Teams, and browser workflows. |
+| **[Coveo](https://www.coveo.com/)** | **~$300.0 Million** market cap ($148M USD ARR) | **Credit-based usage contracts** (~$1,500+/mo entry commitment) | **No free tier or public trial** (guided enterprise demos and custom POC engagements) | AI-powered relevance engine with Relevance Generative Answering for workplace and support search. |
+| **[Qatalog](https://qatalog.com/)** | **~$26.0 Million** prior funding (Acquired by ClickUp) | **$12.00 / user / month** (integrated into ClickUp Brain) | **14-day free trial** (unlimited access during trial window; no permanent free plan) | Autonomous workplace hub unifying project tracking, people directory, and cross-tool search. |
+| **[Dashworks](https://www.dashworks.ai/)** | **~$14.5 Million** funding ($1.4M ARR est.) | **$10.00 / seat / month** (billed annually; $12/mo monthly) | **14-day free trial** (no credit card required; no permanent free tier) | Cost-effective Glean alternative featuring 100+ connectors, team search, and Dashworks Answers. |
+| **[GoSearch](https://www.gosearch.ai/)** | **Seed/YC-backed** (GoLinks parent entity) | **$20.00 / user / month** (Pro tier) | **Permanent free plan** (10 searches/day, 3 GoAI queries/day, single file uploads, basic connectors) | Multi-modal enterprise search with customizable AI answer personas and GoLinks integration. |
+| **[Slite](https://slite.com/)** | **Series A** ($15M funding, Index Ventures) | **$8.00 / user / month** (Standard plan billed annually) | **14-day free trial** (full access with no credit card upfront; no permanent free plan) | Modern team documentation and collaborative knowledge base powered by Ask AI retrieval. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Open-source enterprise search and memory layers are essential for teams demanding zero data leakage, local air-gapped LLM inference, and verifiable source permissions.
+
+### ⭐ Ranked by GitHub Stars
+
+The list below is strictly sorted by GitHub star count (descending):
+
+- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
+  Framework for developing context-aware applications powered by language models, agents, and enterprise retrieval chains.
+
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
+  Open-source RAG engine based on deep document understanding. DeepDoc parses complex multi-column PDFs, OCR, formulas, and merged tables before multi-path hybrid retrieval.
+
+- **[Elasticsearch](https://github.com/elastic/elasticsearch)** [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)  
+  Distributed, RESTful search and analytics engine with dense vector search, lexical BM25 matching, and reciprocal rank fusion (RRF).
+
+- **[Mem0](https://github.com/mem0ai/mem0)** [![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers)  
+  Self-improving personalized and long-term memory layer for AI agents, enterprise search assistants, and multi-tenant applications.
+
+- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
+  All-in-one desktop and enterprise-ready AI application featuring granular workspace permissions, document chat, multi-LLM support, and vector store connectors.
+
+- **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
+  Ultra-fast, typo-tolerant open-source search engine designed for instant search-as-you-type frontends and internal knowledge portals.
+
+- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
+  Data framework for LLM-based applications, indexing enterprise knowledge bases into queryable graphs, vector indexes, and structured data stores.
+
+- **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
+  Cloud-native open-source vector database built for massive-scale enterprise similarity search and neural document indexing.
+
+- **[Agno (formerly Phidata)](https://github.com/agno-agi/agno)** [![GitHub stars](https://img.shields.io/github/stars/agno-agi/agno?style=social&color=white)](https://github.com/agno-agi/agno/stargazers)  
+  Lightweight framework for building multi-modal AI agents with integrated semantic memory, knowledge search, and tool execution.
+
+- **[FAISS](https://github.com/facebookresearch/faiss)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)  
+  Facebook AI Research library for efficient similarity search and dense vector clustering across billion-scale document corpora.
+
+- **[Quivr](https://github.com/QuivrHQ/quivr)** [![GitHub stars](https://img.shields.io/github/stars/QuivrHQ/quivr?style=social&color=white)](https://github.com/QuivrHQ/quivr/stargazers)  
+  Open-source second brain and personal/team knowledge hub capable of ingesting files, audio, and documents with local and cloud LLM inference.
+
+- **[Khoj](https://github.com/khoj-ai/khoj)** [![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
+  Personal AI search assistant running locally or on self-hosted servers to search across PDFs, Markdown notes, Notion, and Obsidian.
+
+- **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
+  High-performance vector search engine written in Rust, offering rich payload filtering and enterprise-grade vector memory for RAG.
+
+- **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)** [![GitHub stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers)  
+  The leading open-source Glean alternative. Ships 40+ enterprise connectors (Slack, Google Drive, Confluence, Jira, GitHub) with native permission-aware ACL mirroring.
+
+- **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
+  Developer-friendly open-source embeddings database built for document retrieval, knowledge search, and agentic memory pipelines.
+
+- **[Typesense](https://github.com/typesense/typesense)** [![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)  
+  Fast, typo-tolerant open-source search engine providing instant keyword search, vector similarity matching, and hybrid ranking.
+
+- **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
+  Modular open-source LLM orchestration framework by deepset for building production-grade semantic search, QA, and RAG pipelines.
+
+- **[pgvector](https://github.com/pgvector/pgvector)** [![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
+  Open-source vector similarity search extension for PostgreSQL, enabling organizations to keep enterprise relational data and vector memory in a single database.
+
+- **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
+  Cloud-native open-source vector database supporting multi-modal neural search, hybrid retrieval, and modular vectorizers.
+
+- **[Unstructured](https://github.com/Unstructured-IO/unstructured)** [![GitHub stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social&color=white)](https://github.com/Unstructured-IO/unstructured/stargazers)  
+  Essential data preparation library that parses unstructured PDFs, Word documents, PowerPoint presentations, and emails into structured text for enterprise indexing.
+
+- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
+  Apache 2.0-licensed distributed search suite with vector search, k-NN plugins, role-based access controls, and multi-tenant visualization dashboards.
+
+- **[SpiceDB](https://github.com/authzed/spicedb)** [![GitHub stars](https://img.shields.io/github/stars/authzed/spicedb?style=social&color=white)](https://github.com/authzed/spicedb/stargazers)  
+  Open-source Google Zanzibar-inspired database for fine-grained authorization, enabling real-time permission mirroring across enterprise search indexes.
+
+- **[Vespa](https://github.com/vespa-engine/vespa)** [![GitHub stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)  
+  The open big data serving engine for enterprise-scale vector, lexical, and structured search with advanced machine-learned ranking.
+
+- **[OpenFGA](https://github.com/openfga/openfga)** [![GitHub stars](https://img.shields.io/github/stars/openfga/openfga?style=social&color=white)](https://github.com/openfga/openfga/stargazers)  
+  CNCF fine-grained authorization engine modeling Relationship-Based Access Control (ReBAC) to mirror enterprise folder hierarchies into search filters.
+
+- **[OPAL (Permit.io)](https://github.com/permitio/opal)** [![GitHub stars](https://img.shields.io/github/stars/permitio/opal?style=social&color=white)](https://github.com/permitio/opal/stargazers)  
+  Open Policy Administration Layer that synchronizes authorization policies and access changes in real-time to internal retrieval engines.
+
+- **[Infinity](https://github.com/infiniflow/infinity)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/infinity?style=social&color=white)](https://github.com/infiniflow/infinity/stargazers)  
+  AI-native database providing ultra-fast hybrid search combining dense vectors, sparse BM25, and structured filtering.
+
+- **[AdalFlow](https://github.com/SylphAI-Inc/AdalFlow)** [![GitHub stars](https://img.shields.io/github/stars/SylphAI-Inc/AdalFlow?style=social&color=white)](https://github.com/SylphAI-Inc/AdalFlow/stargazers)  
+  Lightweight and modular library for building and auto-optimizing enterprise RAG search pipelines.
+
+- **[Apache Solr](https://github.com/apache/solr)** [![GitHub stars](https://img.shields.io/github/stars/apache/solr?style=social&color=white)](https://github.com/apache/solr/stargazers)  
+  Battle-tested enterprise search platform built on Apache Lucene, offering distributed indexing, faceted search, and document clustering.
+
+---
+
+### 🏗️ Architectural Frameworks &amp; Building Blocks
+
+To construct a self-hosted, enterprise-grade internal memory and search system:
+
+1. **Ingestion &amp; Parsing**: Use **Unstructured** or **RAGFlow DeepDoc** to extract structured tables and text from PDFs, DOCX, and scanned artifacts.
+2. **Access Control &amp; ACL Mirroring**: Implement **SpiceDB** or **OpenFGA** (Zanzibar graph models) coupled with **OPAL** to ensure users only retrieve documents matching their active identity permissions.
+3. **Retrieval &amp; Vector Indexing**: Pair **OpenSearch**, **Elasticsearch**, **Vespa**, or **Qdrant** with **pgvector** for hybrid dense/sparse retrieval and reranking.
+4. **Agent Memory &amp; UI**: Deploy **Onyx** or **AnythingLLM** with **Mem0** for multi-tenant memory retention and persona-scoped AI copilots.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-Search-Internal-Memory-Layers&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-Search-Internal-Memory-Layers&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to this curated list are welcome and encouraged!
+
+1. 🍴 **Fork the repo**.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-search-tool`).
+3. 📝 **Add or update the entry** following the table format (for SaaS) or star-ranked list (for Open Source), including pricing, free tier limits, and verifiable links.
+4. 🚀 **Submit a Pull Request** with a concise description of why the tool belongs here.
+
+---
+
+## 💖 Support
+
+Thank you for visiting and supporting the **Awesome Enterprise Search &amp; Internal Memory Layers** ecosystem! 🌟
+
+If you find this repository valuable:
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** it with fellow platform engineers, AI developers, and knowledge managers.
+- ☕ **Sponsor or buy a coffee** to support ongoing research and maintenance:  
+  👉 **[Sponsor on GitHub](https://github.com/sponsors/ishandutta2007)**
+
+---
+
+## ⚠️ Enterprise Security &amp; Disclaimer
+
+- 🔒 **Permission Mirroring is Non-Negotiable**: Enterprise search engines indexing corporate drives, chats, and ticketing systems must rigorously enforce source-system access controls (ACLs). Surfacing restricted documents to unauthorized users constitutes a major security incident.
+- 🔄 **Amazon Kendra Sunset Notice**: AWS announced official end-of-support for Amazon Kendra on **December 31, 2026**. Prospective deployments should target OpenSearch, Onyx, or specialized enterprise alternatives.
+- 📄 **Document Parsing Quality**: In complex enterprise environments, answer accuracy is bounded by document ingestion quality. Complex tables, merged cells, and scanned sheets require OCR engines capable of layout analysis.
+- ⚖️ **Compliance**: Always adhere to enterprise compliance policies including GDPR, CCPA, and SOC 2 Type II when collecting or transmitting organizational memory.
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ for platform engineers, enterprise architects, and AI developers.</sub>
+</div>
