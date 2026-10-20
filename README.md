@@ -58,6 +58,7 @@ The table below catalogs leading commercial Enterprise Search and Workplace Memo
 | **[Dashworks](https://www.dashworks.ai/)** | **~$14.5 Million** funding ($1.4M ARR est.) | **$10.00 / seat / month** (billed annually; $12/mo monthly) | **14-day free trial** (no credit card required; no permanent free tier) | Cost-effective Glean alternative featuring 100+ connectors, team search, and Dashworks Answers. |
 | **[GoSearch](https://www.gosearch.ai/)** | **Seed/YC-backed** (GoLinks parent entity) | **$20.00 / user / month** (Pro tier) | **Permanent free plan** (10 searches/day, 3 GoAI queries/day, single file uploads, basic connectors) | Multi-modal enterprise search with customizable AI answer personas and GoLinks integration. |
 | **[Slite](https://slite.com/)** | **Series A** ($15M funding, Index Ventures) | **$8.00 / user / month** (Standard plan billed annually) | **14-day free trial** (full access with no credit card upfront; no permanent free plan) | Modern team documentation and collaborative knowledge base powered by Ask AI retrieval. |
+| **[Enhanciar](https://enhanciar.in)** | **Bootstrapped** (founded 2026) | **$24.00 / month** (Solo; Team $100/mo; $19 and $80/mo billed yearly) | **None** (paid plans only; users bring their own Gemini, OpenAI or Anthropic key) | Company brain that answers from Slack, Gmail, Notion and Drive with a source link, then drafts the reply or ticket for a person to approve. |
 
 ---
 
